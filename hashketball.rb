@@ -234,7 +234,9 @@ def winning_team
       end
     end
   end
-  
+
+  if home > away
+    return
 
   return "Brooklyn Nets"
 end
